@@ -1,8 +1,24 @@
 body {
+  background: #E6E6E5;
   padding-top: 70px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.jumbotron{
+  background:url("../images/bg-jumbotron.jpg") no-repeat;
+  background-size: cover;
+}
+
+footer{
+  background: #8c8c8c;
+  height: 40px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.contact-cont{
+  margin-top: 50px;
+  margin-bottom: 55px;
 }
