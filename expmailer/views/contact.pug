@@ -8,11 +8,11 @@ block content
                 form(method='post', action='contact/send')
                     .form-group.label-floating
                         label.control-label Name
-                        input.form-control(type='text')
+                        input.form-control(type='text', name='name')
                     .form-group.label-floating
                         label.control-label Email
-                        input.form-control(type='email')
+                        input.form-control(type='email', name='email')
                     .form-group.label-floating
                         label.control-label Enter your message here
-                        textarea.form-control(rows='5')
+                        textarea.form-control(rows='5', name='message')
                     button.btn.btn-lg.btn-success(type='submit') Submit
