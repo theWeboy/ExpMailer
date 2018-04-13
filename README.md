@@ -7,8 +7,9 @@ Uses Express Framework with NodeJS for the backend and the Bootstrap Material Ki
 # To Run
 
 ```
+cd expmailer
+
 npm install
-```
-```
+
 npm start
 ```
