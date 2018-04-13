@@ -18,8 +18,8 @@ router.post('/send', function (req, res, next) {
     });
 
     var mailOptions = {
-        from: 'Anonymous <blackhat.com>',
-        to: 'ddude2118@gmail.com',
+        from: '"Anonymous ?" <blackhat@gmail.com>',
+        to: 'deepakbansal63@gmail.com',
         subject: 'Website Submission',
         text: 'You have a new submission with the following details:- Name: '+req.body.name+' Email: '+req.body.email+' Message: '+req.body.message,
         html: '<p>You got a new submission with the following details...</p><ul><li>Name: '+req.body.name+'</li><li>Email: '+req.body.email+'</li><li>Message: '+req.body.message+'</li></ul>'
